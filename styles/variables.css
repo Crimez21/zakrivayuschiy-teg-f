@@ -1,1 +1,28 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable";
+  --secondary-font: "PressStart2P";
+  --card-tittle-font-weight: 700;
+  --card-text-font-weight: 400;
+  --main-font-size: 18px;
+  --additionally-font-size: 14px;
+  --secondary-font-size: 65px;
+  --header-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --text-color: rgba(0, 0, 0, 1);
+  --border: 2px solid black;
+  --page-color: white;
+  --header-min-height: 364px;
+  --header-margin: 100px 0px 104px 0px;
+  --card-margin-bottom: 50px;
+  --card-image-height: 700px;
+  --page-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 2px 2px,
+      transparent 4px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 2px 2px, transparent 4px 4px),
+    repeating-linear-gradient(#e7e7e7, #1a1a1a);
+  --stroke-border-color: rgba(255, 255, 255, 1);
+  --heart-fill: black;
+}
