@@ -2,8 +2,7 @@
 :root {
   --main-font: "Inter-Variable";
   --secondary-font: "PressStart2P";
-  --card-tittle-font-weight: 700;
-  --card-text-font-weight: 400;
+  --text-font-weight: "wght" 400;
   --main-font-size: 18px;
   --additionally-font-size: 14px;
   --secondary-font-size: 65px;
@@ -12,17 +11,17 @@
   --text-color: rgba(0, 0, 0, 1);
   --border: 2px solid black;
   --page-color: white;
-  --header-min-height: 364px;
-  --header-margin: 100px 0px 104px 0px;
+  --header-padding: 128px 121px 128px 121px;
+  --header-margin: 100px 0px 101px 0px;
   --card-margin-bottom: 50px;
-  --card-image-height: 700px;
+  --card-image-height: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem);
   --page-image: repeating-linear-gradient(
-      to right,
-      #d3d3d3 2px 2px,
-      transparent 4px 4px
+      90deg,
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
     ),
-    repeating-linear-gradient(to bottom, #d3d3d3 2px 2px, transparent 4px 4px),
-    repeating-linear-gradient(#e7e7e7, #1a1a1a);
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
   --stroke-border-color: rgba(255, 255, 255, 1);
   --heart-fill: black;
 }
