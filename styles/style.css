@@ -297,7 +297,7 @@
 
 #save-dialog {
   width: 357px;
-  padding: 28px;
+  padding: 30px;
   font-family: var(--secondary-font, fantasy);
   font-size: var(--additionally-font-size);
   text-transform: uppercase;
@@ -307,6 +307,7 @@
   font-size: var(--additionally-font-size);
   line-height: 150%;
   text-transform: uppercase;
+  max-width: 234px;
 }
 
 #save-dialog::backdrop {
